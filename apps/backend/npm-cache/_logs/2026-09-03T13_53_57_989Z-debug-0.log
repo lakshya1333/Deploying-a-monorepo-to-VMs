@@ -1,0 +1,35 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.13.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 info config found workspace root at d:\Devops-new\deploying-monorepo\todo-app
+5 silly config load:file:d:\Devops-new\deploying-monorepo\todo-app\.npmrc
+6 silly config load:file:C:\Users\LAKSHYA\.npmrc
+7 silly config load:file:C:\Users\LAKSHYA\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm view @types/bun description dist-tags.latest homepage version time
+9 verbose argv "view" "--json" "--" "@types/bun" "description" "dist-tags.latest" "homepage" "version" "time"
+10 verbose logfile logs-max:10 dir:D:\Devops-new\deploying-monorepo\todo-app\apps\backend\npm-cache\_logs\2026-09-03T13_53_57_989Z-
+11 verbose logfile D:\Devops-new\deploying-monorepo\todo-app\apps\backend\npm-cache\_logs\2026-09-03T13_53_57_989Z-debug-0.log
+12 silly logfile done cleaning log files
+13 verbose stack Error: The developer of this package has specified the following through devEngines
+13 verbose stack Invalid engine "packageManager"
+13 verbose stack Invalid name "bun" does not match "npm" for "packageManager"
+13 verbose stack     at View.checkDevEngines (C:\Program Files\nodejs\node_modules\npm\lib\base-cmd.js:182:27)
+13 verbose stack     at async #exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:251:7)
+13 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:207:9)
+13 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+14 error code EBADDEVENGINES
+15 error EBADDEVENGINES The developer of this package has specified the following through devEngines
+15 error EBADDEVENGINES Invalid engine "packageManager"
+15 error EBADDEVENGINES Invalid name "bun" does not match "npm" for "packageManager"
+16 error EBADDEVENGINES {
+16 error EBADDEVENGINES   current: { name: 'npm', version: '10.9.2' },
+16 error EBADDEVENGINES   required: { name: 'bun', version: '1.3.6' }
+16 error EBADDEVENGINES }
+17 verbose cwd d:\Devops-new\deploying-monorepo\todo-app\apps\backend
+18 verbose os Windows_NT 10.0.26200
+19 verbose node v22.13.1
+20 verbose npm  v10.9.2
+21 verbose exit 1
+22 verbose code 1
+23 error A complete log of this run can be found in: D:\Devops-new\deploying-monorepo\todo-app\apps\backend\npm-cache\_logs\2026-09-03T13_53_57_989Z-debug-0.log
