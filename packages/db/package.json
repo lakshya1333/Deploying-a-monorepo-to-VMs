@@ -1,0 +1,22 @@
+{
+  "name": "db",
+  "module": "index.ts",
+  "exports": {
+    "./client": "./index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "6"
+  }
+}
