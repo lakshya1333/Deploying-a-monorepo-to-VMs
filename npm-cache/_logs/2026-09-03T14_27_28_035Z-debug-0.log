@@ -1,0 +1,34 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.13.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:d:\Devops-new\deploying-monorepo\todo-app\.npmrc
+5 silly config load:file:C:\Users\LAKSHYA\.npmrc
+6 silly config load:file:C:\Users\LAKSHYA\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view turbo description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "turbo" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:D:\Devops-new\deploying-monorepo\todo-app\npm-cache\_logs\2026-09-03T14_27_28_035Z-
+10 verbose logfile D:\Devops-new\deploying-monorepo\todo-app\npm-cache\_logs\2026-09-03T14_27_28_035Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose stack Error: The developer of this package has specified the following through devEngines
+12 verbose stack Invalid engine "packageManager"
+12 verbose stack Invalid name "bun" does not match "npm" for "packageManager"
+12 verbose stack     at View.checkDevEngines (C:\Program Files\nodejs\node_modules\npm\lib\base-cmd.js:182:27)
+12 verbose stack     at async #exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:251:7)
+12 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:207:9)
+12 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+13 error code EBADDEVENGINES
+14 error EBADDEVENGINES The developer of this package has specified the following through devEngines
+14 error EBADDEVENGINES Invalid engine "packageManager"
+14 error EBADDEVENGINES Invalid name "bun" does not match "npm" for "packageManager"
+15 error EBADDEVENGINES {
+15 error EBADDEVENGINES   current: { name: 'npm', version: '10.9.2' },
+15 error EBADDEVENGINES   required: { name: 'bun', version: '1.3.6' }
+15 error EBADDEVENGINES }
+16 verbose cwd d:\Devops-new\deploying-monorepo\todo-app
+17 verbose os Windows_NT 10.0.26200
+18 verbose node v22.13.1
+19 verbose npm  v10.9.2
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: D:\Devops-new\deploying-monorepo\todo-app\npm-cache\_logs\2026-09-03T14_27_28_035Z-debug-0.log
